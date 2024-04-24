@@ -1,5 +1,6 @@
 #'@import methods
-#'@import Biostrings
+#'@importFrom Biostrings DNA_ALPHABET IUPAC_CODE_MAP DNAString mergeIUPACLetters reverseComplement
+#'@importFrom pwalign pairwiseAlignment score
 
 #'@name sangerseq-class
 #'  
